@@ -23,5 +23,6 @@ Soil_Type (40 binary columns) / qualitative / 0 (absence) or 1 (presence) / Soil
 
 Cover_Type (7 types) / integer / 1 to 7 / Forest Cover Type designation.
 
+
 Apart from training files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as:
 Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns, and their datatype.
